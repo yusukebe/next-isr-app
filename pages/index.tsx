@@ -37,7 +37,7 @@ export default function Home({
   )
 }
 
-export const getStaticProps: GetStaticProps = () => {
+export const getStaticProps = () => {
   const currentTime = dayjs().tz()
   const createdAt = currentTime.format(formatStyle)
   const nextCreatedAt = currentTime.add(intervalSecond, 's').format(formatStyle)
