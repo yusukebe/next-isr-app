@@ -8,7 +8,7 @@ dayjs.extend(timezone)
 dayjs.extend(utc)
 dayjs.tz.setDefault('Asia/Tokyo')
 
-const intervalSecond = 30
+const intervalSecond = 180
 const formatStyle = 'MM/DD HH:mm:ss'
 
 export default function Home({
